@@ -268,33 +268,33 @@ module.exports = {
   },
   solidity: {
     compilers: [
-      {
-        version: "0.8.4",
-        settings: {
-          optimizer: {
-            enabled: true,
-            runs: 200,
-          },
-        },
-      },
-      {
-        version: "0.6.7",
-        settings: {
-          optimizer: {
-            enabled: true,
-            runs: 200,
-          },
-        },
-      },
-      {
-        version: "0.6.6",
-        settings: {
-          optimizer: {
-            enabled: true,
-            runs: 200,
-          },
-        },
-      },
+      // {
+      //   version: "0.8.4",
+      //   settings: {
+      //     optimizer: {
+      //       enabled: true,
+      //       runs: 200,
+      //     },
+      //   },
+      // },
+      // {
+      //   version: "0.6.7",
+      //   settings: {
+      //     optimizer: {
+      //       enabled: true,
+      //       runs: 200,
+      //     },
+      //   },
+      // },
+      // {
+      //   version: "0.6.6",
+      //   settings: {
+      //     optimizer: {
+      //       enabled: true,
+      //       runs: 200,
+      //     },
+      //   },
+      // },
       {
         version: "0.6.12",
         settings: {
@@ -342,7 +342,7 @@ module.exports = {
     path: "../react-app/src/contracts/ABI",
     runOnCompile: true,
     clear: true,
-    flat: true,
+    flat: false,
     only: [],
     spacing: 2,
     pretty: false,
